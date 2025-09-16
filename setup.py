@@ -22,6 +22,7 @@ setup(
         'pyarrow',
         'python-dotenv',
         'requests',
+        'pdfplumber',
     ],
     entry_points={
         'console_scripts': [
