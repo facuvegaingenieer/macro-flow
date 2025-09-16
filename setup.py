@@ -23,6 +23,7 @@ setup(
         'python-dotenv',
         'requests',
         'pdfplumber',
+        'langchain',
     ],
     entry_points={
         'console_scripts': [
