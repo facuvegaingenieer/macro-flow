@@ -3,6 +3,7 @@ from macro_flow_chunks.transform.transform import PDFTransformer
 from macro_flow_chunks.load.load import Loaderpdf
 import logging
 
+
 logging.basicConfig(
     level=logging.INFO,              # Nivel mínimo de logs a mostrar
     format='%(asctime)s - %(levelname)s - %(message)s',
