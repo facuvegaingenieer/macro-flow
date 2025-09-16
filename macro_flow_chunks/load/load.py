@@ -14,7 +14,7 @@ logging.basicConfig(
 
 class Loaderpdf(Loader):
     @classmethod
-    def save_and_upload_parquet(cls, parquet_path: str):
+    def save_and_upload_chunks(cls, parquet_path: str):
         """
         Sube el archivo Parquet local a S3 usando variables de entorno:
         - AWS_BUCKET

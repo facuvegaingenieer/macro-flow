@@ -11,6 +11,7 @@ logging.basicConfig(
     filemode='a'                    # 'a' append, 'w' overwrite
 )
 
+
 def MacroEtl(url: str) -> str | None:
     """
     Descarga un PDF desde `url`, lo transforma en parquet y lo sube a S3.
