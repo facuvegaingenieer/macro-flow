@@ -25,7 +25,7 @@ class Loaderpdf(Loader):
                 logging.error(f"❌ El archivo parquet no existe: {parquet_path}")
                 return None
 
-            s3_bucket = os.environ.get("AWS_BUCKET")
+            s3_bucket = os.environ.get("AWS_BUCKET_NAME")
             s3_prefix = os.environ.get("AWS_S3_PREFIX", "")
 
             if not s3_bucket:
