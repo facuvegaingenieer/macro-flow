@@ -39,7 +39,7 @@ class PDFTransformer(Transformer):
             chunks = splitter.split_text(full_text)
 
             # Guardar chunks en Parquet
-            df = pd.DataFrame({"chunk_text": chunks, "source_pdf": pdf_path})
+            df = pd.DataFrame({"text": chunks, "source_pdf": pdf_path})
             df.to_parquet(parquet_path, index=False)
 
             logging.info(f"✅ PDF transformado y guardado en Parquet: {parquet_path}")
