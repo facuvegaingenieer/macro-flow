@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text(encoding='utf-8')
 
 setup(
     name='macro-flow',
-    version='0.0.3',
+    version='0.0.4',
     description='ETL Para banco macro, extrae pdf desde la url que le pongas, extrae datos y crea chunks que sube a s3 (aws)',
     long_description=long_description,
     long_description_content_type='text/markdown',
